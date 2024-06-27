@@ -1,29 +1,59 @@
 body {
     background-color:#E11364 ;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+header {
+    background:#BC105C;
 }
 h1 {
-    background:#BC105C ;
     color: white;
+    font-size: 45px;
+    font-family: sans-serif;
     text-align: center;
-    border-right-color: white;
-    border-left-color: white;
-
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-width: 5px;
+    border-style:solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
 }
 main {
     background: #BC105C ;
+    border-radius: 1%;
+}
+section {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 45px;
 }
 h2 {
     color: white;
 }
+.mas-vendido{
+    font-family: sans-serif;
+    padding-top: 10px;
+}
 article {
     background-color: white;
-}
-h3 {
-    color: #BC105C;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1%;
+    }
+.mario-kart {
+    color: #9C0037;
+    font-weight: bold;
     text-align: right;
-    border-bottom-style: dashed;
+    padding-top: 3px;
 }
-
+h3{
+    border-bottom-style: dotted;
+}
+img{
+    width: 80%;
+    height: 50%;
+    text-align: left;
+}
 footer {
     background-color: #E96093;
     color: white;
