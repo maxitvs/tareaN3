@@ -13,14 +13,12 @@ h1 {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
-    border-width: 5px;
-    border-style:solid;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
 }
 main {
     background: #BC105C ;
-    border-radius: 1%;
+    border-radius:1mm;
 }
 section {
     padding-left: 17px;
@@ -38,9 +36,16 @@ article {
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 1%;
-    }
+    border-radius: 1mm;
+    margin-bottom: 30px;
+}
 .mario-kart {
+    color: #9C0037;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 3px;
+}
+.mortal-kombat{
     color: #9C0037;
     font-weight: bold;
     text-align: right;
@@ -48,17 +53,36 @@ article {
 }
 h3{
     border-bottom-style: dotted;
+    font-size: 21px;
 }
-img{
-    width: 80%;
-    height: 50%;
+p{
+    color: black;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+button{
+    background: #2C8F20;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    border: none;
+    border-radius: 1mm;
+    padding: 12px 12px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    display: inline;
 }
 footer {
     background-color: #E96093;
     color: white;
-    font-size: 8px;
+    font-family: sans-serif;
+    font-size: 11px;
     text-align: center;
-    padding: 3px 10px;
-
+    padding: 5px 10px;
+    border-bottom-style: none;
+    margin-top: 15px;
+    border-radius: 1mm;
 }
