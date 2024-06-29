@@ -7,14 +7,14 @@ header {
     background:#BC105C;
 }
 h1 {
-    color: white;
+    color: #FFFFFF;
     font-size: 45px;
     font-family: sans-serif;
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
-    border-left: 4px solid white;
-    border-right: 4px solid white;
+    border-left: 6px solid #FFFFFF;
+    border-right: 6px solid #FFFFFF;
 }
 main {
     background: #BC105C ;
@@ -24,12 +24,15 @@ section {
     padding-left: 17px;
     padding-right: 17px;
     padding-bottom: 45px;
+    text-align: center;
 }
 h2 {
     color: white;
+    text-align: left;
 }
 .mas-vendido{
     font-family: sans-serif;
+    text-align: center;
     padding-top: 10px;
 }
 article {
@@ -42,18 +45,20 @@ article {
 .mario-kart {
     color: #9C0037;
     font-weight: bold;
-    text-align: right;
     padding-top: 3px;
 }
 .mortal-kombat{
     color: #9C0037;
     font-weight: bold;
-    text-align: right;
     padding-top: 3px;
 }
 h3{
     border-bottom-style: dotted;
     font-size: 21px;
+    text-align: right;
+}
+figure{
+    margin: 0;
 }
 p{
     color: black;
