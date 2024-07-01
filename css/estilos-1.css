@@ -1,4 +1,4 @@
-body {
+ body {
     background-color:#E11364 ;
     padding-left: 90px;
     padding-right: 90px;
@@ -59,7 +59,7 @@ h3{
 }
 figure{
     margin: 0;
-}
+ } 
 p{
     color: black;
     text-align: left;
@@ -90,4 +90,4 @@ footer {
     border-bottom-style: none;
     margin-top: 15px;
     border-radius: 1mm;
-}
+} */
